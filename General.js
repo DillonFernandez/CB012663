@@ -23,17 +23,3 @@ function myFunction() {
     }
   }
 }
-
-/*Maps*/
-let prevButton = null;
-
-function toggleMap(mapNum, buttonId) {
-  const maps = document.getElementsByClassName("map");
-  for (let i = 0; i < maps.length; i++) {
-    if (i + 1 === mapNum) {
-      maps[i].style.display = "block";
-    } else {
-      maps[i].style.display = "none";
-    }
-  }
-}
