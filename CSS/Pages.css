@@ -24,7 +24,7 @@
   padding-left: 10px;
   padding-right: 10px;
   margin: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
   
 .bestselling {
@@ -38,6 +38,7 @@
 .bestselling > div:hover {  
   box-shadow: 0px 0px 10px black;
   transform: scale(1.02);
+  transition: 0.5s ease-in;
 }
   
 .imagebestselling{
@@ -66,6 +67,7 @@
 
 .aboutourproducts:hover{
   box-shadow: 0px 0px 10px black;
+  transition: 0.5s ease-in;
 }
   
 @media only screen and (max-width: 810px) {
@@ -93,13 +95,14 @@
   margin-top: 7.6px;
   margin-bottom: 7.6px;
   text-align: center;
-  padding: 5px 15px;
+  padding: 5px 75px;
   background-color: #f1f1f1;
   border-radius: 10px;
 }
 
 .aboutdairy:hover {  
   box-shadow: 0px 0px 10px black;
+  transition: 0.5s ease-in;
 }
 
 .dairyflex {
@@ -115,12 +118,13 @@
   padding-left: 10px;
   padding-right: 10px;
   margin: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .dairyflex > div:hover {  
   box-shadow: 0px 0px 10px black;
   transform: scale(1.02);
+  transition: 0.5s ease-in;
 }
   
 .imagedairy{
@@ -132,10 +136,8 @@
 .vegegrid > div {
   background-color: #f1f1f1;
   padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
   margin: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
   
 .vegegrid {
@@ -149,6 +151,7 @@
 .vegegrid > div:hover {  
   box-shadow: 0px 0px 10px black;
   transform: scale(1.02);
+  transition: 0.5s ease-in;
 }
   
 .imagevegetables{
@@ -173,15 +176,14 @@
   text-align: center;
   justify-content: center;
   background-color: #f1f1f1;
-  border-radius: 20px;
+  border-radius: 10px;
   padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .candstable:hover{
   box-shadow: 0px 0px 10px black;
   transform: scale(1.02);
+  transition: 0.5s ease-in;
 }
   
 .imagecosmeticsskin{
@@ -204,7 +206,7 @@
 
 /*Loyalty registration*/
 .aboutlr {
-  padding: 5px 15px;
+  padding: 5px 75px;
   margin-top: 7.6px;
   margin-bottom: 7.6px;
   display: flex;
@@ -216,6 +218,7 @@
 
 .aboutlr:hover {
   box-shadow: 0px 0px 10px black;
+  transition: 0.5s ease-in;
 }  
 
 .lrtable {
@@ -225,14 +228,13 @@
 
 .lrscheme {
   padding: 15px 15px;
-  margin-top: 7.6px;
-  margin-bottom: 7.6px;
   background-color: #f1f1f1;
   border-radius: 10px;
 }
 
 .lrscheme:hover {
   box-shadow: 0px 0px 10px black;
+  transition: 0.5s ease-in;
 }
 
 .registrationform {
@@ -246,6 +248,7 @@
 
 .registrationform:hover {
   box-shadow: 0px 0px 10px black;
+  transition: 0.5s ease-in;
 }
 
 .form {
@@ -274,22 +277,58 @@
 }
 
 /*About Us*/
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.staff-member {
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.staff-member:hover {
+  box-shadow: 0px 0px 10px black;
+  transition: 0.5s ease-in;
+}
+
+.staff-member img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 600px) {
+  .staff-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .staff-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .tablethtdau {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
 .aboutourservices{
-  padding: 0px 15px;
-  padding-top: 1px;  
-  padding-bottom: 15px;
-  margin-top: 7.6px;
+  padding: 15px 15px;
   background-color: #f1f1f1;
   border-radius: 10px;
 }
 
 .aboutourservices:hover {
   box-shadow: 0px 0px 10px black;
+  transition: 0.5s ease-in;
 }
 
 /*Order*/
@@ -304,6 +343,7 @@
 
 .order:hover {
   box-shadow: 0px 0px 10px black;
+  transition: 0.5s ease-in;
 }
 
 .form {
