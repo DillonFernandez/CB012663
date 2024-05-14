@@ -10,42 +10,44 @@
 </head>
 <body>
   <header>
-    <nav>
-      <img src="Images/Logo 2.png" alt="Logo" class="logo">
-      <!--<img src="Images/Logo 1.png" alt="Logo" class="logo">-->
-      <img src="Images/Cart.png" alt="cart" class="cart">
-      <ul>
-        <li><a href="Home.html">Home</a></li>        
-        <li><a href="Dairy.html">Dairy</a></li>
-        <li><a href="Vegetables.html">Vegetables</a></li>
-        <li><a href="Cosmetics & Skin.html">Cosmetics & Skin</a></li>
-        <li><a href="Loyalty registration.html">Loyalty registration</a></li>
-        <li><a href="About us.html">About us</a></li>
-        <li><a href="Order.html">Order</a></li>
+    <section>
+      <nav>
+        <img src="Images/Logo 2.png" alt="Logo" class="logo">
+        <!--<img src="Images/Logo 1.png" alt="Logo" class="logo">-->
+        <img src="Images/Cart.png" alt="cart" class="cart">
+        <ul>
+          <li><a href="Home.html">Home</a></li>        
+          <li><a href="Dairy.html">Dairy</a></li>
+          <li><a href="Vegetables.html">Vegetables</a></li>
+          <li><a href="Cosmetics & Skin.html">Cosmetics & Skin</a></li>
+          <li><a href="Loyalty registration.html">Loyalty registration</a></li>
+          <li><a href="About us.html">About us</a></li>
+          <li><a href="Order.html">Order</a></li>
+        </ul>
+        <div class="navbar">
+          <div class="dropdown">
+            <button class="dropbtn">Menue</button>
+            <div class="dropdown-content">
+              <a href="Home.html">Home</a>      
+              <a href="Dairy.html">Dairy</a>
+              <a href="Vegetables.html">Vegetables</a>
+              <a href="Cosmetics & Skin.html">Cosmetics & Skin</a>
+              <a href="Loyalty registration.html">Loyalty registration</a>
+              <a href="About us.html">About us</a>
+              <a href="Order.html">Order</a>
+            </div>
+          </div> 
+        </div>        
+        <form action="#" method="get">
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
+        </form>
+      </nav>
+      <ul id="myUL" class="para">
+        <li><a href="Dairy.html" target="_blank">Dairy</a></li>
+        <li><a href="Vegetables.html" target="_blank">Vegetables</a></li>    
+        <li><a href="Cosmetics & Skin.html" target="_blank">Cosmetics & Skin</a></li>
       </ul>
-      <div class="navbar">
-        <div class="dropdown">
-          <button class="dropbtn">Menue</button>
-          <div class="dropdown-content">
-            <a href="Home.html">Home</a>      
-            <a href="Dairy.html">Dairy</a>
-            <a href="Vegetables.html">Vegetables</a>
-            <a href="Cosmetics & Skin.html">Cosmetics & Skin</a>
-            <a href="Loyalty registration.html">Loyalty registration</a>
-            <a href="About us.html">About us</a>
-            <a href="Order.html">Order</a>
-          </div>
-        </div> 
-      </div>        
-      <form action="#" method="get">
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
-      </form>
-    </nav>
-    <ul id="myUL" class="para">
-      <li><a href="Dairy.html" target="_blank">Dairy</a></li>
-      <li><a href="Vegetables.html" target="_blank">Vegetables</a></li>    
-      <li><a href="Cosmetics & Skin.html" target="_blank">Cosmetics & Skin</a></li>
-    </ul>
+    </section>
   </header>
   <section>      
     <center><h2 class="head">Our Services</h2></center>
@@ -81,36 +83,38 @@
     </div>
   </section>
   <hr>
-  <center><h2 class="head">Our Staff</h2></center>
-  <div class="staff-grid para">
-    <div class="staff-member">
-      <img src="Images/Staff/Store manager.png" alt="Staff 1">
-      <h3>John Smith - Store Manager</h3>
-      <p>John oversees the entire operation of the store. 
-        He is responsible for managing staff, dealing with any customer issues, and ensuring the store is stocked and maintained to high standards.</p>
-    </div>
-    <div class="staff-member">
-      <img src="Images/Staff/Assistant Manager.png" alt="Staff 2">
-      <h3>Sarah Johnson - Assistant Manager</h3>
-      <p> Sarah assists the store manager in their duties. 
-        She often handles scheduling, inventory, and the training of new employees.</p>
-    </div>
-    <div class="staff-member">
-      <img src="Images/Staff/Cashier.png" alt="Staff 3">
-      <h3>Mike Brown - Cashier</h3>
-      <p>Mike handles the checkout process, ensuring customers’ shopping experiences end on a positive note. 
-        He is skilled in operating the cash register and handling transactions accurately.</p>
-    </div>
-    <div class="staff-member">
-      <img src="Images/Staff/Produce Department Staff.png" alt="Staff 4">
-      <h3>Emily Davis - Produce Department Staff</h3>
-      <p>Emily works in the produce department, ensuring the fruits and vegetables are fresh and well-stocked. 
-        She has a good knowledge of produce and helps customers find what they need.</p>
-    </div>
-  </div>
-  <hr>
   <section>
-    <main>
+    <center><h2 class="head">Our Staff</h2></center>
+    <div class="staff-grid para">
+      <div class="staff-member">
+        <img src="Images/Staff/Store manager.png" alt="Staff 1">
+        <h3>John Smith - Store Manager</h3>
+        <p>John oversees the entire operation of the store. 
+          He is responsible for managing staff, dealing with any customer issues, and ensuring the store is stocked and maintained to high standards.</p>
+      </div>
+      <div class="staff-member">
+        <img src="Images/Staff/Assistant Manager.png" alt="Staff 2">
+        <h3>Sarah Johnson - Assistant Manager</h3>
+        <p> Sarah assists the store manager in their duties. 
+          She often handles scheduling, inventory, and the training of new employees.</p>
+      </div>
+      <div class="staff-member">
+        <img src="Images/Staff/Cashier.png" alt="Staff 3">
+        <h3>Mike Brown - Cashier</h3>
+        <p>Mike handles the checkout process, ensuring customers’ shopping experiences end on a positive note. 
+          He is skilled in operating the cash register and handling transactions accurately.</p>
+      </div>
+      <div class="staff-member">
+        <img src="Images/Staff/Produce Department Staff.png" alt="Staff 4">
+        <h3>Emily Davis - Produce Department Staff</h3>
+        <p>Emily works in the produce department, ensuring the fruits and vegetables are fresh and well-stocked. 
+          She has a good knowledge of produce and helps customers find what they need.</p>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <main>
+    <section>
       <center><h2 class="head">Our Locations</h2></center>
       <div class="grid-container">
         <div class="location">
@@ -182,8 +186,8 @@
           </div>
         </div>
       </div>
-    </main>    
-  </section>
+    </section>    
+  </main>
   <br>
 </body>
 <footer>

@@ -10,115 +10,74 @@
 </head>
 <body>
   <header>
-    <nav>
-      <img src="Images/Logo 2.png" alt="Logo" class="logo">
-      <!--<img src="Images/Logo 1.png" alt="Logo" class="logo">-->
-      <img src="Images/Cart.png" alt="cart" class="cart">
-      <ul>
-        <li><a href="Home.html">Home</a></li>        
-        <li><a href="Dairy.html">Dairy</a></li>
-        <li><a href="Vegetables.html">Vegetables</a></li>
-        <li><a href="Cosmetics & Skin.html">Cosmetics & Skin</a></li>
-        <li><a href="Loyalty registration.html">Loyalty registration</a></li>
-        <li><a href="About us.html">About us</a></li>
-        <li><a href="Order.html">Order</a></li>
+    <section>
+      <nav>
+        <img src="Images/Logo 2.png" alt="Logo" class="logo">
+        <!--<img src="Images/Logo 1.png" alt="Logo" class="logo">-->
+        <img src="Images/Cart.png" alt="cart" class="cart">
+        <ul>
+          <li><a href="Home.html">Home</a></li>        
+          <li><a href="Dairy.html">Dairy</a></li>
+          <li><a href="Vegetables.html">Vegetables</a></li>
+          <li><a href="Cosmetics & Skin.html">Cosmetics & Skin</a></li>
+          <li><a href="Loyalty registration.html">Loyalty registration</a></li>
+          <li><a href="About us.html">About us</a></li>
+          <li><a href="Order.html">Order</a></li>
+        </ul>
+        <div class="navbar">
+          <div class="dropdown">
+            <button class="dropbtn">Menue</button>
+            <div class="dropdown-content">
+              <a href="Home.html">Home</a>      
+              <a href="Dairy.html">Dairy</a>
+              <a href="Vegetables.html">Vegetables</a>
+              <a href="Cosmetics & Skin.html">Cosmetics & Skin</a>
+              <a href="Loyalty registration.html">Loyalty registration</a>
+              <a href="About us.html">About us</a>
+              <a href="Order.html">Order</a>
+            </div>
+          </div> 
+        </div>        
+        <form action="#" method="get">
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
+        </form>
+      </nav>
+      <ul id="myUL" class="para">
+        <li><a href="Dairy.html" target="_blank">Dairy</a></li>
+        <li><a href="Vegetables.html" target="_blank">Vegetables</a></li>    
+        <li><a href="Cosmetics & Skin.html" target="_blank">Cosmetics & Skin</a></li>
       </ul>
-      <div class="navbar">
-        <div class="dropdown">
-          <button class="dropbtn">Menue</button>
-          <div class="dropdown-content">
-            <a href="Home.html">Home</a>      
-            <a href="Dairy.html">Dairy</a>
-            <a href="Vegetables.html">Vegetables</a>
-            <a href="Cosmetics & Skin.html">Cosmetics & Skin</a>
-            <a href="Loyalty registration.html">Loyalty registration</a>
-            <a href="About us.html">About us</a>
-            <a href="Order.html">Order</a>
-          </div>
-        </div> 
-      </div>        
-      <form action="#" method="get">
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
-      </form>
-    </nav>
-    <ul id="myUL" class="para">
-      <li><a href="Dairy.html" target="_blank">Dairy</a></li>
-      <li><a href="Vegetables.html" target="_blank">Vegetables</a></li>    
-      <li><a href="Cosmetics & Skin.html" target="_blank">Cosmetics & Skin</a></li>
-    </ul>
+    </section>
   </header>
-  <br>
-  <center><h2 class="head">Our Locations</h2></center>
-  <div class="grid-container">
-    <div class="location">
-      <center><h2 class="head">Grocies Supermarket - Kandana</h2></center> 
-      <div class="mapdeats">       
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.6567540687297!2d79.89363477408429!3d7.049559616828546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f73f8d691da3%3A0x2628d7efd94b85a7!2sCargills%20Food%20City-%20Kandana!5e0!3m2!1sen!2slk!4v1712493835300!5m2!1sen!2slk." frameborder="0" allowfullscreen="" loading="lazy"></iframe>
-        <div class="para">
-          <h3>Address</h3>
-          <p>39 A Chilaw - Colombo Main Rd, Kandana</p>
-          <h3>Opening hours</h3>
-          <p>Open daily from 8:00 AM to 11:00 PM</p>
-          <h3>Telephone number</h3>
-          <p>0112247841</p>
-       </div>
+  <section>
+    <center><h2 class="head">Where Our Vegetables Are From</h2></center>
+    <div class="farm-grid para">
+      <div class="farm-location">
+        <img src="Images/Farm/Farm 1.png" alt="Farm 1">
+        <h3>Thambuththegama</h3>
+        <p>This farm is part of Cargills’ Sarubima program, which has transformed traditional farming with modern methods, increasing yields and reducing waste. 
+          The program has created 80 model farms, 35 of which are in Thambuththegama.</p>
       </div>
-      <div>          
-        <img src="Images/Maps/Map 1.png" alt="Location 1">
+      <div class="farm-location">
+        <img src="Images/Farm/Farm 2.png" alt="Farm 2">
+        <h3>Thanamalwila</h3>
+        <p>This farm is known for its community development initiatives, including a scholarship scheme for farmers’ children. 
+          The Cargills Sarubima Agriculture Modernisation project was launched here in 2008</p>
       </div>
-    </div>
-    <div class="location">
-      <center><h2 class="head">Grocies Supermarket - Wattala</h2></center> 
-      <div class="mapdeats">       
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.2739513017736!2d79.88585957408377!3d6.976968917729518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259ad56066c79%3A0xd5f12beed239f093!2sCargills%20Food%20City%20Wattala%202!5e0!3m2!1sen!2slk!4v1715530011614!5m2!1sen!2slk" frameborder="0" allowfullscreen="" loading="lazy"></iframe>
-        <div class="para">
-          <h3>Address</h3>
-          <p>77 Negombo-Colombo Main Rd, Wattala</p>
-          <h3>Opening hours</h3>
-          <p>Open daily from 8:00 AM to 11:00 PM</p>
-          <h3>Telephone number</h3>
-          <p>0112945304</p>
-       </div>
+      <div class="farm-location">
+        <img src="Images/Farm/Farm 3.png" alt="Farm 3">
+        <h3>Norochcholai</h3>
+        <p>This farm is notable for its successful cultivation of various crops, including onions. 
+          It brings together Sinhalese-Tamil cultivators for a common purpose and is part of the 80 model farms created by the Sarubima program.</p>
       </div>
-      <div>          
-        <img src="Images/Maps/Map 2.png" alt="Location 1">
+      <div class="farm-location">
+        <img src="Images/Farm/Farm 4.png" alt="Farm 4">
+        <h3>Kandepuhulpola</h3>
+        <p>This is the location of the Cargills Vegetable Collecting Center, which plays a crucial role in the company’s supply chain. 
+          It ensures the regular incomes of farmers and contributes to the local economy.</p>
       </div>
     </div>
-    <div class="location">
-      <center><h2 class="head">Grocies Supermarket – Negombo</h2></center> 
-      <div class="mapdeats">       
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.207040338095!2d79.84294777408552!3d7.217208814715297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2efe712c03adf%3A0x1c549129c64fa86e!2sCargills%20Food%20City%20Negombo%203!5e0!3m2!1sen!2slk!4v1712494126435!5m2!1sen!2slk." frameborder="0" allowfullscreen="" loading="lazy"></iframe>
-        <div class="para">
-          <h3>Address</h3>
-          <p>1 Puttalam - Colombo Rd, Negombo</p>
-          <h3>Opening hours</h3>
-          <p>Open daily from 7:30 AM to 10:00 PM</p>
-          <h3>Telephone number</h3>
-          <p>0312281972</p>
-       </div>
-      </div>
-      <div>          
-        <img src="Images/Maps/Map 3.png" alt="Location 1">
-      </div>
-    </div>
-    <div class="location">
-      <center><h2 class="head">Grocies Supermarket – Colombo City Centre</h2></center> 
-      <div class="mapdeats">       
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15843.10506424212!2d79.83741075541992!3d6.9173305000000065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259ce2da7a627%3A0xba4203344d58b1ea!2sCargills%20Food%20Hall%20%26%20Supermarket%20-%20Colombo%20City%20Centre!5e0!3m2!1sen!2slk!4v1712494323784!5m2!1sen!2slk." frameborder="0" allowfullscreen="" loading="lazy"></iframe>
-        <div class="para">
-          <h3>Address</h3>
-          <p>137 Sir James Pieris Mawatha, Colombo 00200</p>
-          <h3>Opening hours</h3>
-          <p>Open daily from 8:00 AM to 10:00 PM</p>
-          <h3>Telephone number</h3>
-          <p>0112083038</p>
-       </div>
-      </div>
-      <div>          
-        <img src="Images/Maps/Map 4.png" alt="Location 1">
-      </div>
-    </div>
-  </div>
+  </section>
   <hr>
   <main>
     <section>

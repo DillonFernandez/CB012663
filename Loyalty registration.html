@@ -10,42 +10,44 @@
 </head>
 <body>
   <header>
-    <nav>
-      <img src="Images/Logo 2.png" alt="Logo" class="logo">
-      <!--<img src="Images/Logo 1.png" alt="Logo" class="logo">-->
-      <img src="Images/Cart.png" alt="cart" class="cart">
-      <ul>
-        <li><a href="Home.html">Home</a></li>        
-        <li><a href="Dairy.html">Dairy</a></li>
-        <li><a href="Vegetables.html">Vegetables</a></li>
-        <li><a href="Cosmetics & Skin.html">Cosmetics & Skin</a></li>
-        <li><a href="Loyalty registration.html">Loyalty registration</a></li>
-        <li><a href="About us.html">About us</a></li>
-        <li><a href="Order.html">Order</a></li>
+    <section>
+      <nav>
+        <img src="Images/Logo 2.png" alt="Logo" class="logo">
+        <!--<img src="Images/Logo 1.png" alt="Logo" class="logo">-->
+        <img src="Images/Cart.png" alt="cart" class="cart">
+        <ul>
+          <li><a href="Home.html">Home</a></li>        
+          <li><a href="Dairy.html">Dairy</a></li>
+          <li><a href="Vegetables.html">Vegetables</a></li>
+          <li><a href="Cosmetics & Skin.html">Cosmetics & Skin</a></li>
+          <li><a href="Loyalty registration.html">Loyalty registration</a></li>
+          <li><a href="About us.html">About us</a></li>
+          <li><a href="Order.html">Order</a></li>
+        </ul>
+        <div class="navbar">
+          <div class="dropdown">
+            <button class="dropbtn">Menue</button>
+            <div class="dropdown-content">
+              <a href="Home.html">Home</a>      
+              <a href="Dairy.html">Dairy</a>
+              <a href="Vegetables.html">Vegetables</a>
+              <a href="Cosmetics & Skin.html">Cosmetics & Skin</a>
+              <a href="Loyalty registration.html">Loyalty registration</a>
+              <a href="About us.html">About us</a>
+              <a href="Order.html">Order</a>
+            </div>
+          </div> 
+        </div>        
+        <form action="#" method="get">
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
+        </form>
+      </nav>
+      <ul id="myUL" class="para">
+        <li><a href="Dairy.html" target="_blank">Dairy</a></li>
+        <li><a href="Vegetables.html" target="_blank">Vegetables</a></li>    
+        <li><a href="Cosmetics & Skin.html" target="_blank">Cosmetics & Skin</a></li>
       </ul>
-      <div class="navbar">
-        <div class="dropdown">
-          <button class="dropbtn">Menue</button>
-          <div class="dropdown-content">
-            <a href="Home.html">Home</a>      
-            <a href="Dairy.html">Dairy</a>
-            <a href="Vegetables.html">Vegetables</a>
-            <a href="Cosmetics & Skin.html">Cosmetics & Skin</a>
-            <a href="Loyalty registration.html">Loyalty registration</a>
-            <a href="About us.html">About us</a>
-            <a href="Order.html">Order</a>
-          </div>
-        </div> 
-      </div>        
-      <form action="#" method="get">
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
-      </form>
-    </nav>
-    <ul id="myUL" class="para">
-      <li><a href="Dairy.html" target="_blank">Dairy</a></li>
-      <li><a href="Vegetables.html" target="_blank">Vegetables</a></li>    
-      <li><a href="Cosmetics & Skin.html" target="_blank">Cosmetics & Skin</a></li>
-    </ul>
+    </section>
   </header>
   <section>
     <div class="aboutlr">      
@@ -57,65 +59,68 @@
     </div>
   </section>
   <main>
-    <div class="lrscheme">      
-      <table class="para lrtable" width="100%">
-        <tr>
-          <th class="lrtable">Loyalty Scheme</th>
-          <th class="lrtable">Description</th>
-          <th class="lrtable">Benefits</th>
-        </tr>
-        <tr>
-          <th class="lrtable">Points Plus</th>
-          <td class="lrtable">
-            <ul>
-              <li>Earn points for every dollar you spend.</li>
-              <li>Redeem points for discounts on your favourite groceries.</li>
-              <li>The more you shop, the faster you earn rewards!</li>
-            </ul>
-          </td>
-          <td class="lrtable">
-            <ul>
-              <li>1 point per $1 spent on all purchases.</li>
-              <li>Double points on select weekly deals.</li>
-              <li>Birthday bonus points to celebrate your special day.</li>
-              <li>Exclusive access to members-only promotions.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <th class="lrtable">Monthly Max</th>
-          <td class="lrtable">
-            <ul>
-              <li>Choose a monthly spending threshold.</li>
-              <li>Once you reach the threshold, unlock exclusive discounts on your next purchase.</li>
-              <li>Perfect for budget-conscious shoppers who plan their groceries.</li>
-            </ul>
-          </td>
-          <td class="lrtable">
-            <ul>
-              <li>Set a spending goal (e.g., $100, $200, $300) that fits your monthly needs.</li>
-              <li>Reach your goal and unlock 10% off your next entire purchase.</li>
-              <li>No points to track, simple savings!</li>
-            </ul>
-          </td>
-        </tr>
-      </table>
-    </div>
+    <section>
+      <div class="lrscheme">      
+        <table class="para lrtable" width="100%">
+          <tr>
+            <th class="lrtable">Loyalty Scheme</th>
+            <th class="lrtable">Description</th>
+            <th class="lrtable">Benefits</th>
+          </tr>
+          <tr>
+            <th class="lrtable">Points Plus</th>
+            <td class="lrtable">
+              <ul>
+                <li>Earn points for every dollar you spend.</li>
+                <li>Redeem points for discounts on your favourite groceries.</li>
+                <li>The more you shop, the faster you earn rewards!</li>
+              </ul>
+            </td>
+            <td class="lrtable">
+              <ul>
+                <li>1 point per $1 spent on all purchases.</li>
+                <li>Double points on select weekly deals.</li>
+                <li>Birthday bonus points to celebrate your special day.</li>
+                <li>Exclusive access to members-only promotions.</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th class="lrtable">Monthly Max</th>
+            <td class="lrtable">
+              <ul>
+                <li>Choose a monthly spending threshold.</li>
+                <li>Once you reach the threshold, unlock exclusive discounts on your next purchase.</li>
+                <li>Perfect for budget-conscious shoppers who plan their groceries.</li>
+              </ul>
+            </td>
+            <td class="lrtable">
+              <ul>
+                <li>Set a spending goal (e.g., $100, $200, $300) that fits your monthly needs.</li>
+                <li>Reach your goal and unlock 10% off your next entire purchase.</li>
+                <li>No points to track, simple savings!</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
   </main>
-  <hr>
-  <div class="registrationform">
-    <h2 class="head">Registration Form:</h2> 
-    <form method="post" class="form para">
-      First name: <input type="text" name="fname" placeholder="Enter Your First Name" required class="input-field"><br><br>
-      Last name: <input type="text" name="lname" placeholder="Enter Your Last Name" required class="input-field"><br><br>
-      Email: <input type="email"  name="email" placeholder="Enter Your Email Address" required class="input-field"><br><br>
-      Phone number: <input type="tel" name="phoneno" minlength="10" maxlength="11" placeholder="Enter Your Phone Number" required class="input-field"><br><br>
-      Birthday: <input type="date" name="bday" required class="input-field"><br><br>
-      Loyalty Scheme: <select name="loyalty" class="input-field"><option value="pointplus">Point Plus</option><option value="monthlymax">Monthly Max</option></select>
-      <br><br>
-    <button type="submit" class="submit-button">Submit</button>
-    </form>
-  </div>
+  <section>
+    <div class="registrationform">
+      <h2 class="head">Registration Form:</h2> 
+      <form method="post" class="form para">
+        First name: <input type="text" name="fname" placeholder="Enter Your First Name" required class="input-field"><br><br>
+        Last name: <input type="text" name="lname" placeholder="Enter Your Last Name" required class="input-field"><br><br>
+        Email: <input type="email"  name="email" placeholder="Enter Your Email Address" required class="input-field"><br><br>
+        Phone number: <input type="tel" name="phoneno" minlength="10" maxlength="11" placeholder="Enter Your Phone Number" required class="input-field"><br><br>
+        Birthday: <input type="date" name="bday" required class="input-field"><br><br>
+        Loyalty Scheme: <select name="loyalty" class="input-field"><option value="pointplus">Point Plus</option><option value="monthlymax">Monthly Max</option></select>
+        <br><br>
+      <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </div>
+  </section>
   <br>
 </body>
 <footer>
