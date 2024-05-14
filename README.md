@@ -1,2 +1,4 @@
 # WDOS
-WDOS Assignment Dillon Fernandez - CB012663
+WDOS Assignment Sem1
+Dillon Fernandez 
+CB012663
