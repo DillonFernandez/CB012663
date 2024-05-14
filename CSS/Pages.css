@@ -1,7 +1,7 @@
 /*Home*/
 .banner {
-  margin-right: -7.6px;
-  margin-left: -7.6px;
+  margin-right: -8px;
+  margin-left: -8px;
   position: relative;
   text-align: center;
   color: white;
@@ -50,6 +50,7 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(3, auto);
+  margin-bottom: 20px;
 }
  
 .imagehome {
@@ -92,8 +93,8 @@
 
 /*Dairy*/
 .aboutdairy{
-  margin-top: 7.6px;
-  margin-bottom: 7.6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   text-align: center;
   padding: 5px 75px;
   background-color: #f1f1f1;
@@ -114,6 +115,7 @@
   
 .dairyflex > div {
   background-color: #f1f1f1;
+  width: 400px;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -132,7 +134,45 @@
   filter: drop-shadow(1px 20px 15px #0009);
 }
 
-/*Vegetables*/  
+/*Vegetables*/
+.farm-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.farm-location {
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.farm-location:hover {
+  box-shadow: 0px 0px 10px black;
+  transition: 0.5s ease-in;
+}
+
+.farm-location img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 600px) {
+  .farm-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .farm-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .vegegrid > div {
   background-color: #f1f1f1;
   padding-top: 10px;
@@ -207,8 +247,8 @@
 /*Loyalty registration*/
 .aboutlr {
   padding: 5px 75px;
-  margin-top: 7.6px;
-  margin-bottom: 7.6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   display: flex;
   text-align: center;
   align-items: center;
@@ -241,7 +281,7 @@
   padding: 0px 15px;
   padding-top: 1px;  
   padding-bottom: 15px;
-  margin-top: 7.6px;
+  margin-top: 8px;
   background-color: #f1f1f1;
   border-radius: 10px;
 }
@@ -277,6 +317,49 @@
 }
 
 /*About Us*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+  padding-bottom: -50px;
+}
+
+.location {
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.mapdeats {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 20px;
+}
+
+.location:hover {
+  box-shadow: 0px 0px 10px black;
+  transition: 0.5s ease-in;
+}
+
+.location iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.location img {
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 .staff-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -336,7 +419,7 @@
   padding: 0px 15px;
   padding-top: 1px;  
   padding-bottom: 15px;
-  margin-top: 7.6px;
+  margin-top: 16px;
   background-color: #f1f1f1;
   border-radius: 10px;
 }
