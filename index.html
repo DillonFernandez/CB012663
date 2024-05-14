@@ -10,44 +10,46 @@
   <!--JAVA Links/Files-->
   <script src="General.js"></script>
 </head>
-<body id="top">
+<body>
   <header>
-    <nav><!--This is the navigation tag which holds the navigation of the website-->
-      <img src="Images/Logo 2.png" alt="Logo" class="logo"><!--This is the logo of the website-->
-      <!--<img src="Images/Logo 1.png" alt="Logo" class="logo">-->
-      <img src="Images/Cart.png" alt="cart" class="cart">
-      <ul>
-        <li><a href="Home.html">Home</a></li>        
-        <li><a href="Dairy.html">Dairy</a></li>
-        <li><a href="Vegetables.html">Vegetables</a></li>
-        <li><a href="Cosmetics & Skin.html">Cosmetics & Skin</a></li>
-        <li><a href="Loyalty registration.html">Loyalty registration</a></li>
-        <li><a href="About us.html">About us</a></li>
-        <li><a href="Order.html">Order</a></li>
+    <section>
+      <nav><!--This is the navigation tag which holds the navigation of the website-->
+        <img src="Images/Logo 2.png" alt="Logo" class="logo"><!--This is the logo of the website-->
+        <!--<img src="Images/Logo 1.png" alt="Logo" class="logo">-->
+        <img src="Images/Cart.png" alt="cart" class="cart">
+        <ul>
+          <li><a href="Home.html">Home</a></li>        
+          <li><a href="Dairy.html">Dairy</a></li>
+          <li><a href="Vegetables.html">Vegetables</a></li>
+          <li><a href="Cosmetics & Skin.html">Cosmetics & Skin</a></li>
+          <li><a href="Loyalty registration.html">Loyalty registration</a></li>
+          <li><a href="About us.html">About us</a></li>
+          <li><a href="Order.html">Order</a></li>
+        </ul>
+        <div class="navbar">
+          <div class="dropdown">
+            <button class="dropbtn">Menue - Home</button>
+            <div class="dropdown-content">
+              <a href="Home.html">Home</a>      
+              <a href="Dairy.html">Dairy</a>
+              <a href="Vegetables.html">Vegetables</a>
+              <a href="Cosmetics & Skin.html">Cosmetics & Skin</a>
+              <a href="Loyalty registration.html">Loyalty registration</a>
+              <a href="About us.html">About us</a>
+              <a href="Order.html">Order</a>
+            </div>
+          </div> 
+        </div>      
+        <form action="#" method="get">
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
+        </form>
+      </nav>
+      <ul id="myUL" class="para">
+        <li><a href="Dairy.html" target="_blank">Dairy</a></li>
+        <li><a href="Vegetables.html" target="_blank">Vegetables</a></li>    
+        <li><a href="Cosmetics & Skin.html" target="_blank">Cosmetics & Skin</a></li>
       </ul>
-      <div class="navbar">
-        <div class="dropdown">
-          <button class="dropbtn">Menue</button>
-          <div class="dropdown-content">
-            <a href="Home.html">Home</a>      
-            <a href="Dairy.html">Dairy</a>
-            <a href="Vegetables.html">Vegetables</a>
-            <a href="Cosmetics & Skin.html">Cosmetics & Skin</a>
-            <a href="Loyalty registration.html">Loyalty registration</a>
-            <a href="About us.html">About us</a>
-            <a href="Order.html">Order</a>
-          </div>
-        </div> 
-      </div>      
-      <form action="#" method="get">
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
-      </form>
-    </nav>
-    <ul id="myUL" class="para">
-      <li><a href="Dairy.html" target="_blank">Dairy</a></li>
-      <li><a href="Vegetables.html" target="_blank">Vegetables</a></li>    
-      <li><a href="Cosmetics & Skin.html" target="_blank">Cosmetics & Skin</a></li>
-    </ul>
+    </section>
   </header>
   <section>
     <div class="banner">
@@ -60,27 +62,26 @@
       </div>
     </div>
   </section>
-  <hr>
   <section>
     <center><h2 class="head">Our Best Selling Products</h2></center>
     <div class="bestselling">
       <div>
-        <img src="Images/Dairy/Kotmale Butter Salted - 200g.png" alt="Kotmale Butter Salted - 200g" class="imagebestselling"></a>
+        <a href="Dairy.html" target="_blank"><img src="Images/Dairy/Kotmale Butter Salted - 200g.png" alt="Kotmale Butter Salted - 200g" class="imagebestselling"></a>
         <p class="para">Kotmale Butter Salted - 200g</p>
         <p class="para">Rs. 880.00</p>
       </div>
       <div>
-        <img src="Images/Vegetables/Potatoes - 500g.png" alt="Potatoes - 500g" class="imagebestselling"></a>
+        <a href="Vegetables.html" target="_blank"><img src="Images/Vegetables/Potatoes - 500g.png" alt="Potatoes - 500g" class="imagebestselling"></a>
         <p class="para">Potatoes - 500g</p>
         <p class="para">Rs. 175.00</p>
       </div>
       <div>
-        <img src="Images/Cosmetics & Skin/Ponds White Beauty Facial Foam - 50g.png" alt="Ponds White Beauty Facial Foam - 50g" class="imagebestselling"></a>
+        <a href="Cosmetics & Skin.html" target="_blank"><img src="Images/Cosmetics & Skin/Ponds White Beauty Facial Foam - 50g.png" alt="Ponds White Beauty Facial Foam - 50g" class="imagebestselling"></a>
         <p class="para">Ponds White Beauty Facial Foam - 50g</p>
         <p class="para">Rs. 490.00</p>
       </div>
       <div>
-        <img src="Images/Cosmetics & Skin/Vaseline Advanced Repair Lotion - 100ml.png" alt="Vaseline Advanced Repair Lotion - 100ml" class="imagebestselling"></a>
+        <a href="Cosmetics & Skin.html" target="_blank"><img src="Images/Cosmetics & Skin/Vaseline Advanced Repair Lotion - 100ml.png" alt="Vaseline Advanced Repair Lotion - 100ml" class="imagebestselling"></a>
         <p class="para">Vaseline Advanced Repair Lotion - 100ml</p>
         <p class="para">Rs. 1020.00</p>
       </div>
@@ -88,8 +89,8 @@
   </section>
   <hr>
   <main>
-    <center><h2 class="head">About Our products</h2></center>
     <section>
+      <center><h2 class="head">About Our products</h2></center>
       <div class="aboutourproducts">
         <div class="grid">
           <a href="Dairy.html" target="_blank"><img src="Images/Dairy.png" alt="Dairy" class="imagehome"></a>
@@ -103,10 +104,7 @@
             </ul>
           </ol>
         </div>
-      </div>
-    </section>      
-    <hr>
-    <section>
+      </div>  
       <div class="aboutourproducts">
         <div class="grid">
           <a href="Vegetables.html" target="_blank"><img src="Images/Vegetables.png" alt="Vegetables" class="imagehome"></a>
@@ -120,9 +118,6 @@
           </ol>
         </div>
       </div>
-    </section>
-    <hr>
-    <section>
       <div class="aboutourproducts">
         <div class="grid">
           <a href="Cosmetics & Skin.html" target="_blank"><img src="Images/Cosmetics and skin.png" alt="Cosmetics and Skin" class="imagehome"></a>
@@ -139,7 +134,6 @@
       </div>
     </section>
   </main>
-  <br>
 </body>
 <footer>
   <!--References used while bilding this website-->
