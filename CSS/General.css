@@ -53,6 +53,10 @@ nav li a:hover {
   transform: scale(1.2);
   color: rgb(255, 0, 0);
 }
+
+.current {
+  color: rgb(255, 0, 0);
+}
   
 nav form {
   text-align: center;
