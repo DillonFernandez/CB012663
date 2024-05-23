@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--This helps the website adjust to different screen sizes/resolutions-->
@@ -11,11 +12,12 @@
 <body>
   <header>
     <section>
-      <nav><!--This is the navigation tag which holds the navigation of the website-->
-        <img src="Images/Logo 2.png" alt="Logo" class="logo"><!--This is the logo of the website-->
+      <nav>
+        <img src="Images/Logo 2.png" alt="Logo" class="logo"><!--Logo of the website-->
         <!--<img src="Images/Logo 1.png" alt="Logo" class="logo">-->
         <img src="Images/Cart.png" alt="cart" class="cart">
         <ul>
+          <!--Navigation links-->
           <li><a href="index.html" class="current">Home</a></li>        
           <li><a href="Dairy.html">Dairy</a></li>
           <li><a href="Vegetables.html">Vegetables</a></li>
@@ -25,6 +27,7 @@
           <li><a href="Order.html">Order</a></li>
         </ul>
         <div class="navbar">
+          <!--Drop down menue navigation that works for mobile devices-->
           <div class="dropdown">
             <button class="dropbtn">Menue | Home</button>
             <div class="dropdown-content">
@@ -42,6 +45,7 @@
           <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
         </form>
       </nav>
+      <!--Search results-->
       <ul id="myUL">
         <li><a href="Dairy.html" target="_blank">Dairy</a></li>
         <li><a href="Vegetables.html" target="_blank">Vegetables</a></li>    
@@ -52,11 +56,13 @@
   <section>
     <div class="banner">
       <img src="Images/Home Page banner.png" alt="Banner" width="100%" style="filter: brightness(30%);">
-      <div class="imagetxtcenter">
-        <h1>Welcome to Grocies Supermarket</h1>
-        <p>Our one-stop grocery shop delivers to your doorstep. 
+      <div class="imagetxtcenter">        
+        <p>
+          <h1>Welcome to Grocies Supermarket</h1>
+          Our one-stop grocery shop delivers to your doorstep. 
           We offer fresh produce, pantry staples, and household essentials. 
-          We provide three options: Delivery for large items with fees, Click and Collect for in-store pickup of smaller orders, and Loyalty for planned, recurring deliveries of essentials with varying fees.</p>
+          We provide three options: Delivery for large items with fees, Click and Collect for in-store pickup of smaller orders, and Loyalty for planned, recurring deliveries of essentials with varying fees.
+        </p>
       </div>
     </div>
   </section>
