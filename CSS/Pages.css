@@ -86,7 +86,13 @@
 
 @media only screen and (max-width: 595px) {
   .imagetxtcenter {
-    font-size: small;
+    font-size: smaller;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .imagetxtcenter {
+    font-size: x-small;
   }
 }
 
